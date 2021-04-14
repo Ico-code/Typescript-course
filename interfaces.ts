@@ -1,5 +1,6 @@
 interface stark{
-    name:string
+    name:string;
+    age?:number;
 }
 
 function printName(stark){
